@@ -1,0 +1,23 @@
+.git
+.gitignore
+!.git/HEAD
+!.git/refs
+
+.hg
+
+# Common development/test artifacts
+**/cover/
+**/doc/
+**/test/
+**/tmp/
+**/.elixir_ls
+
+# Mix artifacts
+**/_build/
+**/deps/
+**/*.ez
+
+# Database
+*.db
+*.db-*
+*/data/*
