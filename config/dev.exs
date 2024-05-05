@@ -2,10 +2,7 @@ import Config
 
 # Configure your database
 config :duckDuckGoose, DuckDuckGoose.Repo,
-  username: "postgres",
-  password: "postgres",
-  hostname: "localhost",
-  database: "duckduckgoose_dev",
+  database: "data/duckduckgoose_dev.sqlite",
   stacktrace: true,
   show_sensitive_data_on_connection_error: true,
   pool_size: 10
