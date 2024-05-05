@@ -9,6 +9,15 @@ Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
 
 Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
+
+### Set up and run
+
+Using docker-compose just run this command:
+```
+docker-compose up --build
+```
+This will expose the app to port 4000
+
 ## Learn more
 
   * Official website: https://www.phoenixframework.org/
