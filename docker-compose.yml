@@ -10,5 +10,4 @@ services:
     environment:
       DATABASE_URL: sqlite:///data/duckduckgoose.sqlite
       MIX_ENV: dev
-  db:
-    image: alpine:3.17  # Lightweight image for sqlite3
+
