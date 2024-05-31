@@ -7,6 +7,8 @@ defmodule DuckDuckGooseWeb.Router do
 
   scope "/api", DuckDuckGooseWeb do
     pipe_through :api
+
+    get "/health_check", HealthCheckController, :index
   end
 
   scope "/start", DuckDuckGooseWeb do
