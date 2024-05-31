@@ -2,15 +2,9 @@
 
 This is a Duck Duck Goose service. This service starts multiple node instances in different ports to create multiple Ducks and 1 Goose. 
 
-To start your Phoenix server:
+### How it works?
 
-  * Run `mix setup` to install and setup dependencies
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
-
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
-
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
-
+The server was created to always hold always 1 goose. If the number of running nodes is 1 this will always be a goose.
 
 ### Set up and run
 To set up and run the DuckDuckGoose service using Docker and Phoenix, follow these steps:
