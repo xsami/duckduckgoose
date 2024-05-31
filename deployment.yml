@@ -1,0 +1,21 @@
+# deployment.yaml
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: duckduckgoose-web
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: duckduckgoose-web
+  template:
+    metadata:
+      labels:
+        app: duckduckgoose-web
+    spec:
+      containers:
+        - name: duckduckgoose-web
+          image: your-docker-image:tag
+          ports:
+            - containerPort: 4000
