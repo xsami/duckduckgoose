@@ -53,3 +53,10 @@ Note: If you encounter any issues during the setup process, please refer to the 
 
 ### Contributing
 Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request.
+
+
+### Resources
+
+This project uses Earlang OTP strategies from: https://hexdocs.pm/elixir/introduction-to-mix.html
+Client/Server communication with Genserver: https://hexdocs.pm/elixir/GenServer.html
+
